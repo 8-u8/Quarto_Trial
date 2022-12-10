@@ -13,7 +13,9 @@ Quartoはいいぞ。なんかいろいろできるらしいじゃあないか
 コードをこうやって埋め込めるぜ！
 
 ```{r}
-1 + 1
+x <- rnorm(100, 0, 1)
+y <- x + rnorm(100,0,1)
+plot(x,y)
 ```
 
 You can add options to executable code like this
